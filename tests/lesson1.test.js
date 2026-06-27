@@ -14,7 +14,7 @@ describe('Урок 1 — Змінні та типи даних', () => {
 
   test('Задача 3: конкатенація числа та рядка', () => {
     expect(task3Answer).not.toBeNull();
-    expect(String(task3Answer)).toBe('2020');
+    expect(task3Answer).toBe('2020');
   });
 
 });
